@@ -1,20 +1,25 @@
 # Docker-Compose--SqlServer
-Creates a SQL Server container using Docker Compose
+Creates a Microsoft SQL Server container using docker compose
+
+## Requirement
+
+* Docker Desktop
 
 ## Usage
-Clone this repository and navigate to it
-Create a sapassword.env
+
+1. Clone this repository and navigate to it
+2. Configure the **`sa`** password in `sapassword.env` file
+````
+MSSQL_SA_PASSWORD=<YOUR SA PASSWORD>
+````
+3. Excute the start command
 
 ## Commands
 
-To Create and start in detached mode `docker compose up -d ↩`
+* To start `docker compose up -d ↩`
 
-To Stop  `docker compose down ↩`
+* To Stop  `docker compose down ↩`
 
+## Connect via SSMS
 
-
-##### docker container ls
-
-
-Server Name
-localhost,1433
+![alt text](https://github.com/ricban/Docker-Compose--SqlServer/blob/main/ssms.jpg)
