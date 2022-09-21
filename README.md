@@ -8,18 +8,18 @@ A guide for quickly setting up Microsoft SQL Server 2022 in a docker container. 
 ## Usage
 
 1. Clone this repository and navigate to it
-2. Create `sapassword.env` file and set the **`sa`** password
+2. Create _`sapassword.env`_ file and set the **`sa`** password
 
-````
-MSSQL_SA_PASSWORD=<YOUR SA PASSWORD>
-````
-3. Excute the start command
+```
+MSSQL_SA_PASSWORD=YOUR SA PASSWORD
+```
+3. Excute the **`Start`** command
 
 ## Commands
 
-* To start `docker compose up -d ↩`
+**Start**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _`docker compose up -d ↩`_
 
-* To Stop  `docker compose down ↩`
+**Stop**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _`docker compose down ↩`_
 
 ## SQL Server Management Studio (SSMS) Connection Details
 
