@@ -3,7 +3,7 @@ Creates a Microsoft SQL Server container using docker compose
 
 ## Requirement
 
-* Docker Desktop version 4.12.0 (85629)
+* Docker Desktop version 4.x
 
 ## Usage
 
