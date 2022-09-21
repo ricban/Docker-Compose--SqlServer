@@ -1,5 +1,6 @@
-# Docker-Compose--SqlServer
-Creates a Microsoft SQL Server container using docker compose
+# Microsoft SQL Server 2022
+A guide for quickly setting up Microsoft SQL Server 2022 in a docker container. It uses docker compose to easily manage container configurations.
+
 
 ## Requirement
 
@@ -8,7 +9,8 @@ Creates a Microsoft SQL Server container using docker compose
 ## Usage
 
 1. Clone this repository and navigate to it
-2. Configure the **`sa`** password in `sapassword.env` file
+2. Create `sapassword.env` file and set the **`sa`** password
+
 ````
 MSSQL_SA_PASSWORD=<YOUR SA PASSWORD>
 ````
@@ -20,6 +22,6 @@ MSSQL_SA_PASSWORD=<YOUR SA PASSWORD>
 
 * To Stop  `docker compose down ↩`
 
-## Connect via SSMS
+## SQL Server Management Studio (SSMS) Connection Details
 
 ![alt text](https://github.com/ricban/Docker-Compose--SqlServer/blob/main/ssms.jpg)
