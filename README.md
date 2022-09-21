@@ -1,6 +1,5 @@
-# Microsoft SQL Server 2022
+# Using Docker to run Microsoft SQL Server 2022
 A guide for quickly setting up Microsoft SQL Server 2022 in a docker container. It uses docker compose to easily manage container configurations.
-
 
 ## Requirement
 
